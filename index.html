@@ -1,1 +1,320 @@
-s
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kavin's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/54a5a921e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Logo.png" class="logo" alt>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UMD Computer Science Major</p>
+          <h1>
+            Hello, I'm <span>Kavin</span> <br />Balamurugan from <br />
+            Maryland!
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-----------About Page-------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/38146-27611329_Original.jpg" alt>
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About <span>Me</span></h1>
+            <p class="amtext">
+              My name is Kavin Balamurugan and I'm a Computer Science Major at
+              the University of Maryland. I am very keen in developing my coding
+              skills through numerous languages and projects. Below are my
+              skills, experiences, and education!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <!--Skills-->
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Languages</span><br />Adept with Python,C,Java,HTML,CSS
+                </li>
+                <li>
+                  <span>Web Development</span><br />Able to develop web
+                  applications using HTML and CSS
+                </li>
+                <li>
+                  <span>Microsoft Applications</span><br />Expert with MS Word,
+                  MS Excel, MS PowerPoint
+                </li>
+                <li>
+                  <span>Other Skills</span><br />Proficient in MATLAB and Github
+                </li>
+                <li><span>Speaking Languages</span><br />English and Tamil</li>
+              </ul>
+            </div>
+            <!--Experience-->
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Zillion Technologies Internship: Project zHIVE</span
+                  ><br />
+                  2021-2022
+                  <br />
+                  Interned to Develop Existing Application for Mobile
+                  Compatibility (IOS and An droid)
+                </li>
+                <li>
+                  <span
+                    >Detrick GEMS program at Hood College(GEMS Robotics
+                    Program)</span
+                  ><br />
+                  2019-2020
+                  <br />
+                  Worked with a team that used coding and robotics to solve
+                  numerous puzzles and competed with other teams.
+                </li>
+                <li>
+                  <span
+                    >FIRE Undergraduate Researcher: The First-Year Innovation &
+                    Research Experience</span
+                  ><br />
+                  2022-2023
+                  <br />
+                  Researched sea ice's impact on albedo feedback, utilized the
+                  Cheyenne supercomputer for WRF simulations, and collaborated
+                  on a project presented at an undergraduate research symposium.
+                </li>
+              </ul>
+            </div>
+            <!--Education-->
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Poolesville High School</span>
+                  <br />
+                  2018-2022
+                  <br />
+                  Student in the Global Ecology Magnet Program
+                </li>
+                <li>
+                  <span>University of Maryland</span>
+                  <br />
+                  2022-Current
+                  <br />
+                  Majoring in Computer Science and completed the FIRE program
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------Services----------->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title"><span>My</span> Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-codepen"></i>
+            <h2>Web Development</h2>
+            <p>
+              Can create websites using HTML, CSS, and JavaScript.
+              <br />
+              <br />
+              Currently learning the MERN stack to develop my web applications.
+              <br />
+              <br />
+              Contact me if you would like me to develop a website for you or to
+              give me ideas for future projects.
+              <br />
+              <br />
+              <a href="#contact">Contact Me</a>
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h2>App Development</h2>
+            <p>
+              Have experience making an established website application
+              compatibe for a mobile device.
+              <br /><br />
+              Have experience using xCode and Andriod Studio to develop apps.
+              <br /><br />
+              Send me any ideas you have for me to develop my skill.
+              <br />
+              <br />
+              <a href="#about">Contact Me</a>
+            </p>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-code-compare"></i>
+            <h2>UI/UX Designer</h2>
+            <p>
+              Have worked as both a UI and UX designer by focusing on the
+              aeshthic of a website while also focusing on the users experience.
+              <br /><br />
+              Contact me for UI/UX development opportunities.
+              <br />
+              <br />
+              <a href="#contact">Contact Me</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------Portfolio----------->
+    <div id="portfolio">
+      <div class="container"></div>
+      <h1 class="sub-title"><span>My</span> Portfolio</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/Screenshot 2024-03-30 at 10.27.43 PM.png" alt>
+          <div class="layer">
+            <h3>QueueManager(C)</h3>
+            <p>
+                  Developed a C library for priority queues management systems 
+                  using a linked list data structure in C. Employed advanced memory management techniques such as dynamic 
+                  memory allocation to ensure efficient organization and management 
+                  of priority queues within the linked list structure.
+            </p>
+            <a href="https://github.com/KavinB2004"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Yoga.jpeg" alt>
+          <div class="layer">
+            <h3>Shri Yoga Website Assistant Developer</h3>
+            <p>
+              Worked with co-developers to create a website for the
+              non-profit organization, Shri Yoga. After completion, presented
+              this website to over 400 members explaining
+              everything the site had to offer.
+            </p>
+            <a href="https://shri-yoga.org/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/JavaPic.png" alt>
+          <div class="layer">
+            <h3>Currently In Development: Weather App</h3>
+            <p>
+              Currently working on a weather application that can be used as a
+              website and an app on a mobile device. App will make use of an API
+              to be able to display many locations weather.
+            </p>
+            <a href="https://github.com/KavinB2004"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+
+    <!-----------Contact----------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+
+            <p><i class="fa-regular fa-envelope"></i>bkavinr@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>240-678-9948</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/kavin-balamurugan-2a015a26b/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/KavinB2004/CMSC216"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/_kavinb/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="images/Resume-Kavin Balamurugan(1).pdf" download class="btn btn2" >Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows=6 placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @ KAVIN. This website was created by Kavin Balamurugan <i class="fa-regular fa-face-smile-beam"></i>.</p>
+      </div>
+    </div>
+
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbx_U8G_2SRqvM5X7oDZ3NMtQCJV99cr2pKeY4JgHB9122XPFieNtW_V6yIam4j3VhA6gQ/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message Sent Successfully!"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
+
