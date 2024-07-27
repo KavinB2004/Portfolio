@@ -17,8 +17,8 @@
           <img src="images/Logo.png" class="logo" alt>
           <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
+            <li><a href="#lala">About</a></li>
+            <li><a href="#services"> Best Skills</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
             <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
@@ -40,14 +40,14 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="images/38146-27611329_Original.jpg" alt>
+            <img id="lala" src="images/38146-27611329_Original.jpg" alt>
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About <span>Me</span></h1>
             <p class="amtext">
-              My name is Kavin Balamurugan and I'm a Computer Science Major at
-              the University of Maryland. I am very keen in developing my coding
-              skills through numerous languages and projects. Below are my
+              <!-- <span id="hello_pink">Hello!</span> <br> -->
+              My name is Kavin Balamurugan, a Computer Science Major and General Business Minor entering my Junior year at
+              the University of Maryland. I am currently a Data Analyst Intern @ SD Solutions, LLC and a Software Engineering Fellow @ HeadStarter AI. I am <span id="hello_pink">looking for Software Engineering, Data/Business Analyst, or Project Managment roles</span> for Fall 2024, Spring 2025, and Summer 2025. Below are my
               skills, experiences, and education!
             </p>
 
@@ -64,54 +64,59 @@
             <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li>
-                  <span>Languages</span><br />Adept with Python,C,Java,HTML,CSS
+                  <span>Languages</span><br />
+                  Python | Java | C/C++ | HTML/CSS | JavaScript | OCaml | Swift | SQL | Ruby | Rust
                 </li>
                 <li>
-                  <span>Web Development</span><br />Able to develop web
-                  applications using HTML and CSS
+                  <span>Development Tools</span><br />
+                  Figma | XCode | Android Studio | VS Code | Eclipse | Emacs | Github | MongoDB | PostgreSQL
                 </li>
                 <li>
-                  <span>Microsoft Applications</span><br />Expert with MS Word,
-                  MS Excel, MS PowerPoint
+                  <span>Frameworks</span><br />
+                  Unix | React.js | Node.js | Express.js | JUnit | JavaFX
+
                 </li>
-                <li>
-                  <span>Other Skills</span><br />Proficient in MATLAB and Github
-                </li>
-                <li><span>Speaking Languages</span><br />English and Tamil</li>
+                <li><span>Soft Skills</span><br />Cross Functional Collaboration | Effective Communication | Adaptability | Informative Presentations</li>
               </ul>
             </div>
             <!--Experience-->
             <div class="tab-contents" id="experience">
               <ul>
                 <li>
-                  <span>Zillion Technologies Internship: Project zHIVE</span
-                  ><br />
-                  2021-2022
+                  <span>Data Analyst Intern @ SD Solutions</span
+                  ><br /> 
+                  <em>May 2024 – Current</em>
                   <br />
-                  Interned to Develop Existing Application for Mobile
-                  Compatibility (IOS and An droid)
+                  I am currently automating lead generation for government contract 
+                  opportunities using Python, PostgreSQL, and SAM.gov API calls, 
+                  saving 60+ man hours monthly. Additionally, I am triaging and 
+                  analyzing leads to provide data-driven strategic recommendations 
+                  to leadership and supporting bid writing to maximize federal wins 
+                  through the Shipley Process.
                 </li>
                 <li>
                   <span
-                    >Detrick GEMS program at Hood College(GEMS Robotics
-                    Program)</span
+                    >Arctic Sea Ice-Albedo Feedback Research: Undergraduate Researcher <br>at the Climate Computing Research Lab (FIRE Program)</span
                   ><br />
-                  2019-2020
+                  <em>Aug 2023 – Dec 2023</em>
                   <br />
-                  Worked with a team that used coding and robotics to solve
-                  numerous puzzles and competed with other teams.
+                  I utilized WRF simulations to analyze 
+                  how temperature and cloud cover affect Arctic sea ice-albedo feedback. 
+                  I co-authored and presented a research paper at an 
+                  undergraduate symposium to over 100 peers and professors.
                 </li>
                 <li>
                   <span
-                    >FIRE Undergraduate Researcher: The First-Year Innovation &
-                    Research Experience</span
+                    >IT Intern @ Zillion Technologies</span
                   ><br />
-                  2022-2023
+                  <em> Jun 2022 – Aug 2022</em>
                   <br />
-                  Researched sea ice's impact on albedo feedback, utilized the
-                  Cheyenne supercomputer for WRF simulations, and collaborated
-                  on a project presented at an undergraduate research symposium.
+                  I designed and implemented a wireframe for a mobile 
+                  chat application using Figma, facilitated meetings with stakeholders to address 
+                  business pain points, and aided coding efforts in XCode and Android Studio through 
+                  Java, effectively managing the development lifecycle.
                 </li>
+                <a id="linkthetag" href="#text">Check out my Resumes and LinkedIn for more info and experiences!</a>
               </ul>
             </div>
             <!--Education-->
@@ -129,7 +134,12 @@
                   <br />
                   2022-Current
                   <br />
-                  Majoring in Computer Science and completed the FIRE program
+                  Computer Science Major, General Business Minor, FIRE program alumni
+                </li>
+                <li>
+                  <span>Relevant Coursework</span><br>
+                  Object-Oriented Programming, Functional Programming, Web Application Development, Data Structures, Computer Sci Algorithms, Linear Algebra, Discrete Math, Calculus, Mobile App Development
+
                 </li>
               </ul>
             </div>
@@ -140,102 +150,222 @@
     <!-----------Services----------->
     <div id="services">
       <div class="container">
-        <h1 class="sub-title"><span>My</span> Services</h1>
+        <h1 class="sub-title"><span>My</span> Best Skills</h1>
         <div class="services-list">
           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Programming</h2>
+            <p>
+              Most Proficient with <strong>Java</strong> and <strong>Python</strong>
+              <br /><br />
+              Java: Relative coursework + Experience with numerous projects that utilize multiple data structures <strong>(HashMap, HashSet, ArrayList, TreeMap)</strong>
+              <br /> <br>
+              Python: Leveraged Python in numerous projects to pull data from APIs and store it in databases. Currently working on Python projects.
+              <br />
+            </p>
+          </div>
+          <div>
             <i class="fa-brands fa-codepen"></i>
-            <h2>Web Development</h2>
+            <h2>Full Stack Dev</h2>
             <p>
-              Can create websites using HTML, CSS, and JavaScript.
-              <br />
-              <br />
-              Currently learning the MERN stack to develop my web applications.
-              <br />
-              <br />
-              Contact me if you would like me to develop a website for you or to
-              give me ideas for future projects.
-              <br />
-              <br />
-              <a href="#contact">Contact Me</a>
+              Specialize in building  
+              web apps by integrating both front-end and back-end tech. 
+              <br><br>
+              Creating visually appealing and user-friendly interfaces 
+              using <strong>HTML, CSS, and React</strong>.
+              <br><br>
+              Developing robust server-side logic 
+              with <strong>Node.js</strong> and <strong>Express.js</strong>.
+              <br><br>
+              Managing databases with <strong>MongoDB</strong> and <strong>PostgreSQL</strong>.
             </p>
           </div>
           <div>
-            <i class="fa-brands fa-app-store-ios"></i>
-            <i class="fa-solid fa-mobile-screen-button"></i>
-            <h2>App Development</h2>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data Visualization</h2>
             <p>
-              Have experience making an established website application
-              compatibe for a mobile device.
+              I have experience creating dynamic dashboards and analyzing large 
+              datasets to provide actionable business recommendations.
               <br /><br />
-              Have experience using xCode and Andriod Studio to develop apps.
+              I pull data using <strong>Python</strong> and <strong>APIs</strong> to organize large datasets effectively.
               <br /><br />
-              Send me any ideas you have for me to develop my skill.
+              For visualizations, I use tools like <strong>Microsoft Excel</strong> and <strong>Tableau</strong> to create dynamic and interactive dashboards.
               <br />
               <br />
-              <a href="#about">Contact Me</a>
-            </p>
-          </div>
-          <div>
-            <i class="fa-sharp fa-solid fa-code-compare"></i>
-            <h2>UI/UX Designer</h2>
-            <p>
-              Have worked as both a UI and UX designer by focusing on the
-              aeshthic of a website while also focusing on the users experience.
-              <br /><br />
-              Contact me for UI/UX development opportunities.
-              <br />
-              <br />
-              <a href="#contact">Contact Me</a>
             </p>
           </div>
         </div>
       </div>
     </div>
     <!-----------Portfolio----------->
+    
     <div id="portfolio">
       <div class="container"></div>
       <h1 class="sub-title"><span>My</span> Portfolio</h1>
-      <div class="work-list">
-        <div class="work">
-          <img src="images/CPic.png" alt>
-          <div class="layer">
-            <h3>QueueManager(C)</h3>
-            <p>
-                  Developed a C library for priority queues management systems 
-                  using a linked list data structure in C. Employed advanced memory management techniques such as dynamic 
-                  memory allocation to ensure efficient organization and management 
-                  of priority queues within the linked list structure.
-            </p>
-            <a href="https://github.com/KavinB2004"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+      <div class="proj-titles">
+        <p class="project-links active-sec" onclick="openProject(event, 'programming')">
+          Programming Language Projects
+        </p>
+        <p class="project-links" onclick="openProject(event, 'webdev')">
+          Full Stack/ Web Development Projects
+        </p>
+        <p class="project-links" onclick="openProject(event, 'analyst')">
+          Analyst Projects
+        </p>
+      </div>
+      <div class="project-contents active-proj" id="programming">
+        <div class="work-list">
+          <div class="work">
+            <img src="images/C.png" alt>
+            <div class="layer">
+              <h3>QueueManager</h3>
+              <p>
+                <li class="la">Developed a <Strong>C</Strong> library for <strong>priority queues management</strong> systems 
+                  using a <strong>linked list data structure</strong> in C </li> 
+                <li class="la">Employed advanced memory management techniques such as <strong>dynamic 
+                  memory allocation</strong> to ensure efficient organization and management 
+                  of priority queues within the linked list structure</li>
+              </p>
+              <a href="https://github.com/KavinB2004/QueueManager"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Java.webp" alt>
+            <div class="layer">
+              <h3>PurchaseOrderManager</h3>
+              <p>
+                <li class="la">
+                  Designed and implemented a <strong>Java-based</strong> system to concurrently process purchase orders, utilizing <strong>multi-threading</strong> for enhanced performance
+                </li>
+                <li class="la">
+                  Implemented <strong>file processing functionalities</strong> to generate order summaries with client IDs and sorted lists of purchased items
+                </li>
+                <li class="la"> 
+                  Employed efficient algorithms and data structures, such as <strong>HashMaps</strong> and <strong>TreeMaps</strong>
+                </li>
+              </p>
+              <a href="https://github.com/KavinB2004/PurchaseOrderManager/tree/main"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Sam.jpg" alt>
+            <div class="layer">
+              <h3>Sam.gov API</h3>
+              <p>
+                
+                <li class="la">Developed a <strong>Python script</strong> to filter and collect government contract opportunities using <strong>API calls</strong> to SAM.gov, increasing efficiency and saving <strong>60+ man hours monthly</strong>
+                </li> 
+                <li class="la">Utilized <strong>PostgreSQL</strong> for storing and managing fetched opportunities data, creating a table to ensure structured data storage</li>
+                <li class="la">Designed the script to dynamically construct API request URLs, ensuring flexible and accurate data retrieval</li>
+              </p>
+              <!-- <a href="https://github.com/KavinB2004/QueueManager"><i class="fa-solid fa-square-arrow-up-right"></i></a> -->
+            </div>
           </div>
         </div>
-        <div class="work">
-          <img src="images/Yoga.jpeg" alt>
-          <div class="layer">
-            <h3>Shri Yoga Website Assistant Developer</h3>
-            <p>
-              Worked with co-developers to create a website for the
-              non-profit organization, Shri Yoga. After completion, presented
-              this website to over 400 members explaining
-              everything the site had to offer.
-            </p>
-            <a href="https://shri-yoga.org/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Aim.png" alt>
+            <div class="layer">
+              <h3>Aim Trainer</h3>
+              <p>
+                Currently under development in Python
+              </p>
+            </div>
           </div>
+          <div class="work"></div>
+          <div class="work"></div>
         </div>
-        <div class="work">
-          <img src="images/JavaPic.png" alt>
-          <div class="layer">
-            <h3>Currently In Development: Weather App</h3>
-            <p>
-              Currently working on a weather application that can be used as a
-              website and an app on a mobile device. App will make use of an API
-              to be able to display many locations weather.
-            </p>
-            <a href="https://github.com/KavinB2004"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+      </div>
+      <div class="project-contents" id="webdev">
+        <div class="work-list">
+          <div class="work">
+            <img src="images/SportStatPic.png" alt>
+            <div class="layer">
+              <h3>SportStat</h3>
+              <p>
+                <li class="la">Developed a responsive web application enabling quarterbacks to track their game stats
+                 </li>
+                <li class="la">Used <strong>MongoDB</strong> for storage and retrieval of player stats, supporting leaderboards with real-time updates</li>
+                <li class="la">Integrated <strong>American Football API</strong> to display historical NFL season standings, enriching the user experience</li>
+                <li class="la">Leveraged <strong>Express.js</strong> and <strong>Node.js</strong> to build a <strong>RESTful API</strong>, facilitating seamless communication between the
+                  front end and the database</li>
+              </p>
+              <a href="https://github.com/KavinB2004/FinalProj/tree/main/Finalproj"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Shoe.png" alt>
+            <div class="layer">
+              <h3>Shoe Store</h3>
+              <p>
+                <li class="la">
+                  Developed a web application simulating an online shoe store using a dataset of over <strong>1000+ shoes</strong>, including
+                  attributes such as price, image, reviews, color, and category                </li>
+                <li class="la">
+                  Designed using <strong>HTML</strong> and <strong>CSS</strong> to ensure a visually appealing and user-friendly layout.                </li>
+                <li class="la"> 
+                  Leveraged <strong>React hooks</strong>, specifically <strong>useState</strong>, along with <strong>array functions</strong> like filter and map to manage state,
+efficiently process the dataset, and dynamically display shoes that match selected filters.
+                </li>
+              </p>
+              <!-- <a href="https://github.com/KavinB2004"><i class="fa-solid fa-square-arrow-up-right"></i></a> -->
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Yoga.jpeg" alt>
+            <div class="layer">
+              <h3>Shri Yoga Website Assistant Developer</h3>
+              <p>
+                Worked with co-developers to create a website for the
+                non-profit organization, Shri Yoga. After completion, presented
+                this website to over <strong>400+</strong> members explaining
+                everything the site had to offer.
+              </p>
+              <a href="https://shri-yoga.org/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
           </div>
         </div>
       </div>
-      <a href="#" class="btn">See More</a>
+
+      <div class="project-contents" id="analyst">
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Bike.png" alt>
+            <div class="layer">
+              <h3>London Bike Rides</h3>
+              <p>
+                <li class="la">Employed <strong>Python</strong> and the <strong>Kaggle API</strong> to extract and organize <strong>17,000+ data entries</strong> into <strong>Microsoft Excel</strong>. </li> 
+                <li class="la">Developed a <strong>dynamic dashboard</strong> in <strong>Tableau</strong> incorporating <strong>5+ visualizations</strong> to represent the data effectively</li>
+                <li class="la">Implemented slicers and an editable date timeline for real-time updates and data filtering</li>
+                <li class="la">Analyzed the data to identify trends, such as the most popular weather conditions, times, and seasons for biking
+                  over 5+ years</li>
+
+
+              </p>
+              <a href="https://public.tableau.com/app/profile/kavin.balamurugan/viz/LondonBikeRides_17220623660150/LondonBikeRides?publish=yes"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Coffee.png" alt>
+            <div class="layer">
+              <h3>Coffee Sales Data</h3>
+              <p>
+                <li class="la">
+                  Acquired and organized over <strong>2,000+ coffee sales data entries</strong>, ensuring accurate and clean data for analysis                </li>
+                <li class="la">
+                  Analyzed sales data to identify trends, such as the most popular coffee roasts and sizes at different times of the year
+in order to provide actionable business recommendations to optimize inventory and marketing strategies
+                </li>
+                <li class="la"> 
+                  Created a dynamic dashboard in <strong>Microsoft Excel</strong>, incorporating <strong>3+ visualizations</strong> such as line and bar graphs                </li>
+              </p>
+              <!-- <a href="https://github.com/KavinB2004"><i class="fa-solid fa-square-arrow-up-right"></i></a> -->
+            </div>
+          </div>
+          <div class="work">
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-----------Contact----------->
@@ -244,7 +374,6 @@
         <div class="row">
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
-
             <p><i class="fa-regular fa-envelope"></i>bkavinr@gmail.com</p>
             <p><i class="fa-solid fa-phone"></i>240-678-9948</p>
             <div class="social-icons">
@@ -252,13 +381,18 @@
               <a href="https://github.com/KavinB2004/CMSC216"><i class="fa-brands fa-github"></i></a>
               <a href="https://www.instagram.com/_kavinb/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="images/_Balamurugan Kavin - Resume (3).pdf" download class="btn btn2" >Download Resume</a>
+            <div class="resume_area">
+              <h2 id="text">My Resumes!</h2>
+              <a href="images/Kavin_s_B_CS_Resume.pdf" download class="btn btn2" >General Resume</a>
+              <a href="images/Kavin_s_B_Full_Stack_Resume.pdf" download class="btn btn2" >Full Stack Resume</a>
+              <a href="images/Kavin_s_B_Analyst_Resume.pdf" download class="btn btn2" >Analyst Resume</a>
+            </div>
           </div>
           <div class="contact-right">
             <form name="submit-to-google-sheet">
               <input type="text" name="Name" placeholder="Your Name" required>
               <input type="email" name="Email" placeholder="Your Email" required>
-              <textarea name="Message" rows=6 placeholder="Your Message" required></textarea>
+              <textarea id="toast" name="Message" rows=6 placeholder="Your Message" required></textarea>
               <button type="submit" class="btn btn2">Submit</button>
             </form>
             <span id="msg"></span>
@@ -286,6 +420,7 @@
         event.currentTarget.classList.add("active-link");
         document.getElementById(tabname).classList.add("active-tab");
       }
+
     </script>
 
     <script>
@@ -314,6 +449,21 @@
           })
           .catch(error => console.error('Error!', error.message))
       })
+    </script>
+
+    <script>
+      var projlinks = document.getElementsByClassName("project-links");
+      var projcontents = document.getElementsByClassName("project-contents");
+      function openProject(event, projecttype) {
+        for (projlink of projlinks) {
+          projlink.classList.remove("active-sec");
+        }
+        for (projcontent of projcontents) {
+          projcontent.classList.remove("active-proj");
+        }
+        event.currentTarget.classList.add("active-sec");
+        document.getElementById(projecttype).classList.add("active-proj");
+      }
     </script>
   </body>
 </html>
