@@ -17,7 +17,9 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/IMG_0983_Original.jpg);
+    background-image: url(images/FullSizeRender.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -78,12 +80,14 @@ nav ul li a:hover::after {
 }
 
 .header-text p {
-    color: rgb(234, 153, 153)
+    color: black;
+    width: 410px;
+    margin-top: 10px;
 }
 
 .header-text h1 {
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: black;
 }
 
@@ -283,6 +287,7 @@ nav ul li a:hover::after {
 
 .work img {
     width: 100%;
+    height: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.7s;
@@ -395,8 +400,16 @@ nav ul li a:hover::after {
 }
 
 .btn.btn2 {
-    display: inline-block;
-    background: rgb(234, 153, 153)
+    background: rgb(234, 153, 153);
+    width: 180px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn.btn2:hover {
+    background: rgb(146, 99, 99);
+    cursor: pointer;
 }
 
 .contact-right form {
@@ -541,4 +554,81 @@ nav ul .fa-regular {
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+
+.la {
+    text-align: left;
+}
+
+#hello_pink {
+    color: rgb(234, 153, 153);
+}
+
+#smaller_text {
+    font-size: 13px;
+}
+
+#text {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.resume_area a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#linkthetag {
+    color: rgb(234, 153, 153);
+}
+
+.proj-titles {
+    margin-left: 120px;
+    margin-top: 15px;
+}
+
+.project-links {
+    margin-left: 30px;
+    font-size: 18px;
+    display: inline;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.project-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(234, 153, 153);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transform: 0.5s;
+}
+
+.project-links.active-sec::after {
+    width: 100%;
+}
+
+.project-contents {
+    display: none;
+}
+
+.project-contents.active-proj {
+    display: block;
+}
+
+.layer li {
+    margin-bottom: 7px;
+}
+
+.layer h3 {
+    margin-bottom: 4px;
+}
+
+#toast {
+    height: 310px;
 }
